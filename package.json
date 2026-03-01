@@ -1,0 +1,19 @@
+{
+  "name": "budget",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "cli": "tsx src/cli/index.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}
