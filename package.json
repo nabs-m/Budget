@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
-    "cli": "tsx src/cli/index.ts"
+    "cli": "tsx src/cli/index.ts",
+    "debug": "tsx src/cli/debug.ts"
   },
   "dependencies": {
     "csv-parse": "^6.1.0"
